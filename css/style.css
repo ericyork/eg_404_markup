@@ -1,0 +1,29 @@
+:root {
+  --lt-accent: #7B73FF;
+  --accent: #6C63FF;
+  --base: #FBFAFF;
+  --lt-primary: #c5c4cf;
+  --primary: #797884;
+  --dk-primary: #34333f;
+}
+nav, footer {
+  background-color: var(--accent);
+  height: 8rem;
+  color: var(--base);
+  display: flex;
+  align-items: center;
+}
+nav {
+  justify-content: space-evenly;
+}
+nav a {
+  color: var(--base);
+}
+footer p {
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+img {
+  max-width: 25%;
+}
